@@ -16,69 +16,53 @@ body {
 
 
 header {
-    background-color: #15B072;
-    padding: 20px;
-    text-align: center;
-    font-size: 35px;
-    color: white;
-    border-radius: none;
-}
-
-
-
-
-
-
-.button {
-  background-color: #15B072;
-  border: 2px solid #0F764D;
-  color: white;
-  padding: 7px 15px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 15px;
-  border-radius: 10px;
-}
-
-
-
-h2 {
-	
-	background-color: #5781FF;
-    padding: 5px;
+    
+    padding: 10px;
     text-align: left;
-    font-size: 30px;
-    color: white;
+    font-size: 20px;
+    color: #0F764D;
     border-radius: none;
-	
 }
+
+
+
+
+
+
 
 
 
 .container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 135vh;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    position: absolute; 
+    bottom: 50px; 
+    left: 50%; 
+    transform: translateX(-50%);
+	width: 100%;
+		
 }
 
-input {
-	
-	display: flex;
-	justify-content: center;
-	
-	
-	opacity: 0.5;
-	
+.ricerca {
+    margin-right: 10px;
+    width: 50%; 
+    border: 2px solid #0F764D; 
+    border-radius: 7px;
+    text-align: left; 
+    padding: 10px;
+    opacity: 0.5; 
 }
 
+.button {
+    padding: 10px 20px; 
+    background-color: #4CAF50; 
+    color: white; 
+    border: 2px solid #0F764D; 
+    border-radius: 7px; 
+    cursor: pointer; 
+}
 
-.box {
-	
-	width: 1000px;
-	padding: 7px;
-	border: 2px solid #0F764D;
-	border-radius: 7px;
-	
+.button:hover {
+    background-color: #0F764D;
 }
